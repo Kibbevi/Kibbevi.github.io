@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    background-size: 100%;
+    background-image:linear-gradient(rgb(119, 136, 153),rgb(200, 221, 241));
+    background-repeat: no-repeat;
+}
+body {
+    width: 35%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background-color: transparent;
+    height: 100%;
+    
+    
+}
+#formcontainer {
+    background-color: transparent;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+header {
+    background-color: transparent;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}
+.toDoForm {
+    padding: 5px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(62, 62, 73);
+    padding: 5px;
+    margin: 0px;
+    
+}
+#content {
+    padding: 5px;
+    
+}
+#listcontainer {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightslategrey;
+}
+#inputfield {
+    font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    padding: 3px;
+    width: 100%;
+    
+}
+#addButton {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(229, 241, 253);
+}
+
+.refresh {
+    padding: 3px;
+}
+#listcontainer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: transparent;
+    padding: 5px 5px 17px 5px;
+
+}
+#toDoList {
+    list-style-type: none;
+}
+ul {
+    padding:0px;
+}
+
+ul li{
+    background-color:rgb(239, 242, 247);
+    border-style: solid;
+    border-width: 0.5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: rgb(190, 201, 216);
+    text-align: left;
+}
+.liTag {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px;
+    
+}
+.check{
+    padding: 5px 15px 5px 5px;
+}
+
+.del {
+    padding: 3px 5px 5px 5px;
+    float: right;
+    
+}
+
+#delete {
+    padding: 5px;
+    align-self: center;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(229, 241, 253);
+
+}
