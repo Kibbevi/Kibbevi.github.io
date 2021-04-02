@@ -27,13 +27,13 @@ function addTask(task){
     let ul = document.querySelector('ul');
     let li = document.createElement('li');
     var list = document.getElementById('toDoList');
-    li.innerHTML = `<input type="checkbox" id ="chackmark"><label>${task}</label><span class="delete">\u00D7</span>`;
+    li.innerHTML = `<input type="checkbox" id ="chackmark"><label>${task}</label><span class="delete"><i class="fas fa-trash"></i></span>`;
     ul.appendChild(li);
     storeTasks();
 }
 function storeTasks(){
     var list = document.getElementById('toDoList');
-    window.localStorage.myitems = list.innerHTML;
+    window.localStorage.stuffToDo = list.innerHTML;
 }
 // show tasks
 function taskList(){
