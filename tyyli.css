@@ -24,7 +24,8 @@ html{
   }
   form{
     background-color: #fff;
-    padding: 25px;
+    padding: 10px;
+    
   }
   input[type="text"]{
     width: 310px;
@@ -36,12 +37,13 @@ html{
     color: #2f4f4f;
   }
   button{
-    font-size: 1.5em;
+    font-size: 1.7em;
     float: right;
-    color: #53BDFF;
+    color: #096b00;
     background-color: #fff;
     outline: 0;
     border: none;
+    cursor: pointer;
     width: 50px;
   
   }
@@ -50,8 +52,7 @@ html{
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 40px;
-    /*display: none;*/
+    padding-right: 20px;
   
   }
   ul{
@@ -64,15 +65,29 @@ html{
     font-size: 1.3em;
     color: #2f4f4f;
   }
+  .checkmark{
+    cursor: pointer;
+    padding: 5px;
+  }
+  #refresh{
+    padding: 5px;
+    float: right;
+    text-align: right;
+    color: #ff9204;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
   #clear{
+    padding: 5px;
     float: right;
     text-align: right;
     color: #cc1212;
-    font-size: 1.2em;
+    font-size: 1.5em;
     cursor: pointer;
   }
   .delete{
     background-color: #ffffff;
+    float: right;
     padding: 0px 3px 0px 3px;
     color: rgb(255, 0, 0);
     cursor: pointer;
