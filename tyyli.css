@@ -3,7 +3,7 @@
 }
 html{
     height: 100%;
-    background-image: linear-gradient(rgb(119, 136, 153),rgb(200, 221, 241));
+    background-image:linear-gradient(rgb(202, 209, 205), rgb(255, 255, 255));
     background-repeat: no-repeat;
     font-family: sans-serif;
     color: #0f222d;
@@ -19,8 +19,13 @@ html{
     border: none;
   }
   h1{
+    margin: 10px 0px 0px 0px;
     text-align: center;
     color: #fff;
+    background-color: rgb(182, 91, 17);
+    text-decoration: underline;
+    
+    padding: 21.44px 0px;
   }
   form{
     background-color: #fff;
@@ -59,7 +64,7 @@ html{
     list-style: none;
   }
   li{
-    border-bottom: 1px solid #ffd753;
+    border-bottom: 1px solid #d4bc97;
     padding-bottom: 15px;
     padding-top: 15px;
     font-size: 1.3em;
@@ -68,6 +73,12 @@ html{
   .checkmark{
     cursor: pointer;
     padding: 5px;
+  }
+  #active {
+    
+  }
+  #completed {
+    
   }
   #refresh{
     padding: 5px;
@@ -89,6 +100,6 @@ html{
     background-color: #ffffff;
     float: right;
     padding: 0px 3px 0px 3px;
-    color: rgb(255, 0, 0);
+    color: rgb(109, 29, 29);
     cursor: pointer;
   }
