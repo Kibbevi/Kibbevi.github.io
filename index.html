@@ -1,43 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>toDoList</title>
     <link rel="stylesheet" href="tyyli.css">
-    
-    
-</head>
-<body>
-    <!-- forms-->
-    <div id = "formcontainer">
-        <h2>TO DO:</h2>
-        <form name ="form1"  class ="toDoForm" action ="index.html" method ="post" onsubmit ="return validate();">
-            <input type = "text" name = "inputt" id ="inputfield">
-        
-            <input type ="submit" value ="Lisää" id ="addButton">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="main">
+        <h1>TO-DO</h1>
+        <form class="form1" action="todotest.html" method="post">
+            <input type="text" name="task">
+            <button  type="submit">Lisää</button>
         </form>
-    </div>
-    <!--<header>
-        <h3>To Do:</h3>
-        <div id = "content">
-            <input type ="text" id ="inputfield">
-            <button onclick ="validate()" id ="addButton">Lisää</button>
-            <span class ="refresh" onclick="taskList()"><i class="fas fa-sync-alt"></i></span>
+    
+        <div class="tasksBoard">
+            <ul id = "toDoList"></ul>
+            <span id="clear">Tyhjennä</span>
         </div>
-    </header>-->
-    
-    <!-- lista tänne-->
-    <div id ="listcontainer">   
-        <ul id = "toDoList"></ul>
-    <br/><button onclick = "deleteAllTasks()"" id ="delete">Tyhjennä lista</button>
-
     </div>
-    <!--poista kaikki nappi-->
     
-    
-    <script src="script.js"></script>
-</body>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+  
 </html>
