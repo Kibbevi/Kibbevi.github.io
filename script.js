@@ -29,7 +29,7 @@ function addTask(task){
   let ul = document.querySelector('ul');
   let li = document.createElement('li');
   var list = document.getElementById('toDoList');
-  li.innerHTML = `<input type="checkbox" class ="checkmark"><label>${task}</label><span class="delete"><i class="fas fa-trash"></i></span>`;
+  li.innerHTML = `<input type="checkbox" class ="checkmark"><label class ="taskk" onclick ="check()">${task}</label><span class="delete"><i class="fas fa-trash"></i></span>`;
   ul.appendChild(li);
   storeTasks();
 }
@@ -74,15 +74,15 @@ function check(e){
     task.style.color ="lightslategrey";
   } else {
     task.style.textDecoration ="none";
-    task.style.color ="#2f4f4f";
+    task.style.color ="#212e2e";
   }
   storeTasks();
 }
 //function showActive(){
-//  var li = document.getElementsByClassName('activeTask');
+
 //}
 //function showCompleted(){
-//  var li = document.getElementsByClassName('checkedTask');
+
 //}
        
 // tallenna listan tiedot selaimeen ->ok

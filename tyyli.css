@@ -5,13 +5,13 @@ html{
     height: 100%;
     background-image:linear-gradient(rgb(202, 209, 205), rgb(255, 255, 255));
     background-repeat: no-repeat;
-    font-family: sans-serif;
+    font-family: Arial, Verdana, sans-serif;
     color: #0f222d;
     background-size: auto;
   }
   
   .main{
-    width: 500px;
+    width: 520px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -19,13 +19,13 @@ html{
     border: none;
   }
   h1{
-    margin: 10px 0px 0px 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
     text-align: center;
     color: #fff;
-    background-color: rgb(182, 91, 17);
+    background-image: linear-gradient(rgb(182, 105, 35), rgb(182, 110, 30));
     text-decoration: underline;
-    
-    padding: 21.44px 0px;
+    padding: 12px 0px;
   }
   form{
     background-color: #fff;
@@ -33,13 +33,13 @@ html{
     
   }
   input[type="text"]{
-    width: 310px;
+    width: 315px;
     height: 30px;
     outline: 0;
     border: none;
     font-size: 1.5em;
     background: #fff;
-    color: #2f4f4f;
+    color: #212e2e;
   }
   button{
     font-size: 1.7em;
@@ -53,8 +53,8 @@ html{
   
   }
   .tasks{
-    background-color: #fff;
-    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
@@ -64,11 +64,12 @@ html{
     list-style: none;
   }
   li{
-    border-bottom: 1px solid #d4bc97;
+    border-bottom: 1px solid;
+    border-color:  #d4bc97;
     padding-bottom: 15px;
     padding-top: 15px;
     font-size: 1.3em;
-    color: #2f4f4f;
+    color: #212e2e;
   }
   .checkmark{
     cursor: pointer;
