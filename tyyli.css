@@ -97,7 +97,7 @@ html{
     font-size: 1.5em;
     cursor: pointer;
   }
-  .delete{
+  #delete{
     background-color: #ffffff;
     float: right;
     padding: 0px 3px 0px 3px;

@@ -29,7 +29,7 @@ function addTask(task){
   let ul = document.querySelector('ul');
   let li = document.createElement('li');
   var list = document.getElementById('toDoList');
-  li.innerHTML = `<input type="checkbox" class ="checkmark"><label class ="taskk" onclick ="check()">${task}</label><span class="delete"><i class="fas fa-trash"></i></span>`;
+  li.innerHTML = `<input type="checkbox" class ="checkmark"><label class ="taskk" onclick ="check()">${task}</label><i class="fas fa-trash" id ="delete"></i>`;
   ul.appendChild(li);
   storeTasks();
 }
@@ -52,7 +52,7 @@ function clearAllTasks(e){
 }
 
 function deleteorCheck(e){
-  if(e.target.className == 'delete')
+  if(e.target.className == 'fas fa-trash')
     deleteTask(e);
   else {
     check(e);
